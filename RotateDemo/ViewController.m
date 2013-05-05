@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
+#import "AppDelegate.h"
 
 @interface ViewController ()
 
@@ -14,16 +16,27 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
+- (BOOL)shouldAutorotate
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    return NO;
 }
 
-- (void)didReceiveMemoryWarning
+- (NSUInteger)supportedInterfaceOrientations
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    return UIInterfaceOrientationMaskPortrait;
+}
+
+- (IBAction)nextButtonClicked
+{
+    UIWindow *window = ((AppDelegate *)[UIApplication sharedApplication].delegate).window;
+    
+    ViewController *vc = [[ViewController alloc] initWithNibName:@"ViewController" bundle:nil];
+    UINavigationController *nvc = [[UINavigationController alloc] initWithRootViewController:vc];
+    SecondViewController *secondVC = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
+    [nvc pushViewController:secondVC animated:NO];
+    
+    window.rootViewController = nvc;
+    // window.rootViewController = secondVC;
 }
 
 @end

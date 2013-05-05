@@ -18,6 +18,9 @@
 		1C93CCEB17363552006ADD15 /* Default-568h@2x.png in Resources */ = {isa = PBXBuildFile; fileRef = 1C93CCEA17363552006ADD15 /* Default-568h@2x.png */; };
 		1C93CCEE17363552006ADD15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C93CCED17363552006ADD15 /* ViewController.m */; };
 		1C93CCF117363552006ADD15 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C93CCEF17363552006ADD15 /* ViewController.xib */; };
+		1C93CCFD17363675006ADD15 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C93CCFB17363675006ADD15 /* SecondViewController.m */; };
+		1C93CCFE17363675006ADD15 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C93CCFC17363675006ADD15 /* SecondViewController.xib */; };
+		1C93CD0117363AAA006ADD15 /* UINavigationController+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C93CD0017363AAA006ADD15 /* UINavigationController+Rotate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +40,11 @@
 		1C93CCEC17363552006ADD15 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		1C93CCED17363552006ADD15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1C93CCF017363552006ADD15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
+		1C93CCFA17363675006ADD15 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
+		1C93CCFB17363675006ADD15 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
+		1C93CCFC17363675006ADD15 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		1C93CCFF17363AAA006ADD15 /* UINavigationController+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Rotate.h"; sourceTree = "<group>"; };
+		1C93CD0017363AAA006ADD15 /* UINavigationController+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Rotate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -88,6 +96,11 @@
 				1C93CCEC17363552006ADD15 /* ViewController.h */,
 				1C93CCED17363552006ADD15 /* ViewController.m */,
 				1C93CCEF17363552006ADD15 /* ViewController.xib */,
+				1C93CCFA17363675006ADD15 /* SecondViewController.h */,
+				1C93CCFB17363675006ADD15 /* SecondViewController.m */,
+				1C93CCFC17363675006ADD15 /* SecondViewController.xib */,
+				1C93CCFF17363AAA006ADD15 /* UINavigationController+Rotate.h */,
+				1C93CD0017363AAA006ADD15 /* UINavigationController+Rotate.m */,
 				1C93CCDB17363552006ADD15 /* Supporting Files */,
 			);
 			path = RotateDemo;
@@ -163,6 +176,7 @@
 				1C93CCE917363552006ADD15 /* Default@2x.png in Resources */,
 				1C93CCEB17363552006ADD15 /* Default-568h@2x.png in Resources */,
 				1C93CCF117363552006ADD15 /* ViewController.xib in Resources */,
+				1C93CCFE17363675006ADD15 /* SecondViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -176,6 +190,8 @@
 				1C93CCE117363552006ADD15 /* main.m in Sources */,
 				1C93CCE517363552006ADD15 /* AppDelegate.m in Sources */,
 				1C93CCEE17363552006ADD15 /* ViewController.m in Sources */,
+				1C93CCFD17363675006ADD15 /* SecondViewController.m in Sources */,
+				1C93CD0117363AAA006ADD15 /* UINavigationController+Rotate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
