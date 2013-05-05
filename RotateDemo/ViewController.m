@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "SecondViewController.h"
 
 @interface ViewController ()
 
@@ -14,16 +15,15 @@
 
 @implementation ViewController
 
-- (void)viewDidLoad
+- (IBAction)nextButtonClicked
 {
-    [super viewDidLoad];
-	// Do any additional setup after loading the view, typically from a nib.
+    SecondViewController *secondVC = [[SecondViewController alloc] initWithNibName:@"SecondViewController" bundle:nil];
+    [self.navigationController pushViewController:secondVC animated:YES];
 }
 
-- (void)didReceiveMemoryWarning
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
 {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+    return toInterfaceOrientation == UIInterfaceOrientationPortrait;
 }
 
 @end
