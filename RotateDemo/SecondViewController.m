@@ -24,4 +24,9 @@
     return UIInterfaceOrientationMaskLandscape;
 }
 
+- (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
+{
+    return (toInterfaceOrientation == UIInterfaceOrientationLandscapeRight);
+}
+
 @end
