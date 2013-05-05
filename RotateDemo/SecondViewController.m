@@ -15,9 +15,9 @@
 
 @implementation SecondViewController
 
-- (void)viewWillAppear:(BOOL)animated
+- (void)viewDidAppear:(BOOL)animated
 {
-    [super viewWillAppear:animated];
+    [super viewDidAppear:animated];
     
     [[UIApplication sharedApplication] setStatusBarOrientation:UIInterfaceOrientationLandscapeRight];
     CGAffineTransform transform = CGAffineTransformMakeRotation(degreeToRadian(90));
@@ -40,6 +40,16 @@
 - (BOOL)shouldAutorotateToInterfaceOrientation:(UIInterfaceOrientation)toInterfaceOrientation
 {
     return toInterfaceOrientation == UIInterfaceOrientationLandscapeRight;
+}
+
+- (BOOL)shouldAutorotate
+{
+    return NO;
+}
+
+- (NSUInteger)supportedInterfaceOrientations
+{
+    return 0;
 }
 
 @end

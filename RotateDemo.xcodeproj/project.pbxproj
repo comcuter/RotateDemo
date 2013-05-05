@@ -20,6 +20,7 @@
 		1C93CCF117363552006ADD15 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C93CCEF17363552006ADD15 /* ViewController.xib */; };
 		1C93CD0D17366553006ADD15 /* SecondViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C93CD0B17366553006ADD15 /* SecondViewController.m */; };
 		1C93CD0E17366553006ADD15 /* SecondViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C93CD0C17366553006ADD15 /* SecondViewController.xib */; };
+		1C93CD1517368853006ADD15 /* UINavigationController+Rotate.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C93CD1417368853006ADD15 /* UINavigationController+Rotate.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -42,6 +43,8 @@
 		1C93CD0A17366553006ADD15 /* SecondViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondViewController.h; sourceTree = "<group>"; };
 		1C93CD0B17366553006ADD15 /* SecondViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondViewController.m; sourceTree = "<group>"; };
 		1C93CD0C17366553006ADD15 /* SecondViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondViewController.xib; sourceTree = "<group>"; };
+		1C93CD1317368853006ADD15 /* UINavigationController+Rotate.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+Rotate.h"; sourceTree = "<group>"; };
+		1C93CD1417368853006ADD15 /* UINavigationController+Rotate.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+Rotate.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -96,6 +99,8 @@
 				1C93CD0A17366553006ADD15 /* SecondViewController.h */,
 				1C93CD0B17366553006ADD15 /* SecondViewController.m */,
 				1C93CD0C17366553006ADD15 /* SecondViewController.xib */,
+				1C93CD1317368853006ADD15 /* UINavigationController+Rotate.h */,
+				1C93CD1417368853006ADD15 /* UINavigationController+Rotate.m */,
 				1C93CCDB17363552006ADD15 /* Supporting Files */,
 			);
 			path = RotateDemo;
@@ -186,6 +191,7 @@
 				1C93CCE517363552006ADD15 /* AppDelegate.m in Sources */,
 				1C93CCEE17363552006ADD15 /* ViewController.m in Sources */,
 				1C93CD0D17366553006ADD15 /* SecondViewController.m in Sources */,
+				1C93CD1517368853006ADD15 /* UINavigationController+Rotate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
