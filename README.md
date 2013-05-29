@@ -1,7 +1,10 @@
-这个工程主要是展示从一个 Portrait 的 ViewController 切换到一个 LandScape 的ViewController 的几种方式. 但是这几种方式的切换动画都很难看.只有 transform 方式有改进的可能性,其他则只是作为退而求其次的方法.
+这个工程主要目的是:
+
+1. 在除 master 外的几个分支上展示了从一个 Portrait 的 ViewController 切换到一个 LandScape 的ViewController 的几种方式. 但是这几种方式的切换动画都很难看.只有 transform 方式有改进的可能性,其他则只是作为退而求其次的方法.
+2. master 分支上展示了 Potrait 和 Landscape orientation 下展示两个不同的 view 的几种方法.
 
 ###master
-这个分支上没什么东西
+这个分支上主要展示 Potrait 和 LandScape orientation 下展示两个不同的 view 的几种方法.
 
 ###setRootViewController
 通过设置 window.rootViewController 的方式.在 push LandScape 的 Viewcontroller 时,将其设置为 rootViewController 这样系统会根据第二个 viewController 所支持的 orientation (ios5, 6中写法不同)来进行调整.

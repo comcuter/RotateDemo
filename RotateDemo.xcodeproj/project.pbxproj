@@ -19,6 +19,13 @@
 		1C93CCEE17363552006ADD15 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1C93CCED17363552006ADD15 /* ViewController.m */; };
 		1C93CCF117363552006ADD15 /* ViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1C93CCEF17363552006ADD15 /* ViewController.xib */; };
 		1C93CD12173680D4006ADD15 /* README.md in Resources */ = {isa = PBXBuildFile; fileRef = 1C93CD11173680D4006ADD15 /* README.md */; };
+		1CA1DD421755063700C24BAB /* FirstMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1DD401755063700C24BAB /* FirstMethodViewController.m */; };
+		1CA1DD431755063700C24BAB /* FirstMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA1DD411755063700C24BAB /* FirstMethodViewController.xib */; };
+		1CA1DD4717564A8200C24BAB /* SecondMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1DD4517564A8200C24BAB /* SecondMethodViewController.m */; };
+		1CA1DD4817564A8200C24BAB /* SecondMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA1DD4617564A8200C24BAB /* SecondMethodViewController.xib */; };
+		1CA1DD4C1756504600C24BAB /* ThirdMethodViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 1CA1DD4A1756504600C24BAB /* ThirdMethodViewController.m */; };
+		1CA1DD4D1756504600C24BAB /* ThirdMethodViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA1DD4B1756504600C24BAB /* ThirdMethodViewController.xib */; };
+		1CA1DD4F1756508900C24BAB /* ThirdMethodLandViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = 1CA1DD4E1756508900C24BAB /* ThirdMethodLandViewController.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -39,6 +46,16 @@
 		1C93CCED17363552006ADD15 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		1C93CCF017363552006ADD15 /* en */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = en; path = en.lproj/ViewController.xib; sourceTree = "<group>"; };
 		1C93CD11173680D4006ADD15 /* README.md */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = README.md; sourceTree = "<group>"; };
+		1CA1DD3F1755063700C24BAB /* FirstMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = FirstMethodViewController.h; sourceTree = "<group>"; };
+		1CA1DD401755063700C24BAB /* FirstMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = FirstMethodViewController.m; sourceTree = "<group>"; };
+		1CA1DD411755063700C24BAB /* FirstMethodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = FirstMethodViewController.xib; sourceTree = "<group>"; };
+		1CA1DD4417564A8200C24BAB /* SecondMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SecondMethodViewController.h; sourceTree = "<group>"; };
+		1CA1DD4517564A8200C24BAB /* SecondMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SecondMethodViewController.m; sourceTree = "<group>"; };
+		1CA1DD4617564A8200C24BAB /* SecondMethodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = SecondMethodViewController.xib; sourceTree = "<group>"; };
+		1CA1DD491756504600C24BAB /* ThirdMethodViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ThirdMethodViewController.h; sourceTree = "<group>"; };
+		1CA1DD4A1756504600C24BAB /* ThirdMethodViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ThirdMethodViewController.m; sourceTree = "<group>"; };
+		1CA1DD4B1756504600C24BAB /* ThirdMethodViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdMethodViewController.xib; sourceTree = "<group>"; };
+		1CA1DD4E1756508900C24BAB /* ThirdMethodLandViewController.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = ThirdMethodLandViewController.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -91,6 +108,16 @@
 				1C93CCEC17363552006ADD15 /* ViewController.h */,
 				1C93CCED17363552006ADD15 /* ViewController.m */,
 				1C93CCEF17363552006ADD15 /* ViewController.xib */,
+				1CA1DD3F1755063700C24BAB /* FirstMethodViewController.h */,
+				1CA1DD401755063700C24BAB /* FirstMethodViewController.m */,
+				1CA1DD411755063700C24BAB /* FirstMethodViewController.xib */,
+				1CA1DD4417564A8200C24BAB /* SecondMethodViewController.h */,
+				1CA1DD4517564A8200C24BAB /* SecondMethodViewController.m */,
+				1CA1DD4617564A8200C24BAB /* SecondMethodViewController.xib */,
+				1CA1DD491756504600C24BAB /* ThirdMethodViewController.h */,
+				1CA1DD4A1756504600C24BAB /* ThirdMethodViewController.m */,
+				1CA1DD4B1756504600C24BAB /* ThirdMethodViewController.xib */,
+				1CA1DD4E1756508900C24BAB /* ThirdMethodLandViewController.xib */,
 				1C93CCDB17363552006ADD15 /* Supporting Files */,
 			);
 			path = RotateDemo;
@@ -167,6 +194,10 @@
 				1C93CCEB17363552006ADD15 /* Default-568h@2x.png in Resources */,
 				1C93CCF117363552006ADD15 /* ViewController.xib in Resources */,
 				1C93CD12173680D4006ADD15 /* README.md in Resources */,
+				1CA1DD431755063700C24BAB /* FirstMethodViewController.xib in Resources */,
+				1CA1DD4817564A8200C24BAB /* SecondMethodViewController.xib in Resources */,
+				1CA1DD4D1756504600C24BAB /* ThirdMethodViewController.xib in Resources */,
+				1CA1DD4F1756508900C24BAB /* ThirdMethodLandViewController.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -180,6 +211,9 @@
 				1C93CCE117363552006ADD15 /* main.m in Sources */,
 				1C93CCE517363552006ADD15 /* AppDelegate.m in Sources */,
 				1C93CCEE17363552006ADD15 /* ViewController.m in Sources */,
+				1CA1DD421755063700C24BAB /* FirstMethodViewController.m in Sources */,
+				1CA1DD4717564A8200C24BAB /* SecondMethodViewController.m in Sources */,
+				1CA1DD4C1756504600C24BAB /* ThirdMethodViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
